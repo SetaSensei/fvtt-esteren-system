@@ -1,0 +1,16 @@
+.sheet.personnage {
+    font-family: 'Signika', sans-serif;
+    background: #f4f1e1;
+    color: #2c2c2c;
+    padding: 10px;
+  }
+  
+  .sheet.personnage h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .sheet-body {
+    margin-top: 20px;
+  }
+  

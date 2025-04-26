@@ -1,0 +1,25 @@
+<form class="sheet personnage" autocomplete="off">
+    <header class="sheet-header">
+      <h1><input name="name" type="text" value="{{actor.name}}" placeholder="Nom du personnage"/></h1>
+    </header>
+  
+    <section class="sheet-body">
+      <div class="tab description active" data-group="primary" data-tab="description">
+        <h2>Voies</h2>
+        <div class="flexrow">
+          <div>Combatif : <input type="number" name="system.voies.combatif" value="{{system.voies.combatif}}" /></div>
+          <div>Créatif : <input type="number" name="system.voies.creatif" value="{{system.voies.creatif}}" /></div>
+          <div>Empathique : <input type="number" name="system.voies.empathique" value="{{system.voies.empathique}}" /></div>
+          <div>Rationnel : <input type="number" name="system.voies.rationnel" value="{{system.voies.rationnel}}" /></div>
+          <div>Convaincant : <input type="number" name="system.voies.convaincant" value="{{system.voies.convaincant}}" /></div>
+        </div>
+  
+        <h2>Santé Mentale</h2>
+        <div>Équilibre : <input type="number" name="system.santeMentale.equilibre" value="{{system.santeMentale.equilibre}}" /></div>
+  
+        <h2>Points de Survie</h2>
+        <div>PS : <input type="number" name="system.pointsSurvie" value="{{system.pointsSurvie}}" /></div>
+      </div>
+    </section>
+  </form>
+  

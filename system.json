@@ -1,0 +1,31 @@
+{
+    "id": "esteren",
+    "title": "Les Ombres d'Esteren",
+    "description": "Un système pour jouer dans l'univers des Ombres d'Esteren.",
+    "version": "0.1.0",
+    "compatibility": {
+      "minimum": "12",
+      "verified": "12",
+      "maximum": "13"
+    },
+    "authors": [
+      {
+        "name": "SetaSensei"
+      }
+    ],
+    "scripts": ["module/es-module.js"],
+    "esmodules": ["module/es-module.js"],
+    "styles": ["styles/esteren.css"],
+    "languages": [
+      {
+        "lang": "fr",
+        "name": "Français",
+        "path": "lang/fr.json"
+      }
+    ],
+    "packs": [],
+    "relationships": {
+      "systems": [],
+      "requires": []
+    }
+  }
