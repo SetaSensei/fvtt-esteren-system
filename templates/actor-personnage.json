@@ -1,0 +1,20 @@
+{
+  "name": "Nouveau personnage",
+  "type": "personnage",
+  "system": {},
+  "prototypeToken": {
+    "texture": {
+      "src": ""
+    },
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "scale": 1
+  },
+  "effects": [],
+  "items": [],
+  "ownership": {
+    "default": 0
+  },
+  "sort": 0
+}

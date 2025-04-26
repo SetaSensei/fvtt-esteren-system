@@ -1,7 +1,10 @@
 {
-    "NAME": "Nom",
-    "VOIES": "Voies",
-    "SANTE_MENTALE": "Santé Mentale",
-    "POINTS_SURVIE": "Points de Survie"
+  "ESTEREN": {
+    "Actor": {
+      "Character": {
+        "SheetTitle": "Fiche de Personnage",
+        "VoieCombat": "Voie : Combat"
+      }
+    }
   }
-  
+}
