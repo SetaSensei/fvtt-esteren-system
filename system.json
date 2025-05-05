@@ -1,5 +1,5 @@
 {
-  "name": "Esteren",
+  "name": "esteren",
   "id": "esteren",
   "title": "Les Ombres d'Esteren",
   "description": "Système pour jouer dans l'univers des Ombres d'Esteren.",
@@ -10,13 +10,11 @@
   },
   "authors": [
     {
-      "name": "SetaSensei",
-      "email": "",
-      "url": ""
+      "name": "SetaSensei"
     }
   ],
-  "scripts": [],
-  "styles": [],
+  "esmodules": ["module/system.js"],
+  "styles": ["styles/esteren.css"],
   "packs": [],
   "languages": [
     {
@@ -26,10 +24,8 @@
     }
   ],
   "system": {
-    "actorTypes": ["personnage", "pnj"]
+    "actorTypes": ["base"]
   },
-  "esmodules": ["module/system.js"],
-  "socket": false,
   "initiative": "1d10",
   "url": "https://github.com/tonrepo/esteren",
   "manifest": "https://github.com/tonrepo/esteren/releases/latest/download/system.json",

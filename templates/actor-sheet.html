@@ -1,0 +1,31 @@
+<form class="actor-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <h1><input name="name" type="text" value="{{actor.name}}"
+        placeholder="{{localize 'ESTEREN.ActorName'}}" /></h1>
+  </header>
+  <div class="flexrow">
+    <div class="char-column flex1">
+      <section class="sheet-body">
+        <h2>{{localize "ESTEREN.Domaines"}}</h2>
+        {{> statInput stat="combativite"  displayValue=system.domaines.combativite  }}
+        {{> statInput stat="creativite"   displayValue=system.domaines.creativite   }}
+        {{> statInput stat="empathie"     displayValue=system.domaines.empathie     }}
+        {{> statInput stat="raison"       displayValue=system.domaines.raison       }}
+        {{> statInput stat="conviction"   displayValue=system.domaines.conviction   }}
+      </div>
+      <div class="char-column flex1">
+        <h2>{{localize "ESTEREN.ressources"}}</h2>
+        <div>
+          <label>{{localize "ESTEREN.sante"}}</label>
+          <input type="number" name="system.ressources.sante"
+            value="{{system.ressources.sante}}" />
+        </div>
+        <div>
+          <label>{{localize "ESTEREN.energie"}}</label>
+          <input type="number" name="system.ressources.energie"
+            value="{{system.ressources.energie}}" />
+        </div>
+      </section>
+    </div>
+  </div>
+</form>

@@ -13,4 +13,7 @@
   .sheet-body {
     margin-top: 20px;
   }
-  
+
+  .char-column {
+    padding: 1em;
+  }

@@ -1,10 +1,12 @@
 {
-  "ESTEREN": {
-    "Actor": {
-      "Character": {
-        "SheetTitle": "Fiche de Personnage",
-        "VoieCombat": "Voie : Combat"
-      }
-    }
-  }
+  "ESTEREN.ActorName": "Nom du personnage",
+  "ESTEREN.Domaines": "Domaines",
+  "ESTEREN.combativite": "Combativité",
+  "ESTEREN.creativite": "Créativité",
+  "ESTEREN.empathie": "Empathie",
+  "ESTEREN.raison": "Raison",
+  "ESTEREN.conviction": "Conviction",
+  "ESTEREN.ressources": "Ressources",
+  "ESTEREN.sante": "Santé",
+  "ESTEREN.energie": "Énergie"
 }
